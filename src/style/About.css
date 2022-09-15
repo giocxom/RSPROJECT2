@@ -1,0 +1,102 @@
+/* ABOUT */
+.AboutMainDiv{
+    width: 1300px;
+    margin: 0 auto;
+}
+.AboutMainDiv h2{
+    font-size: 30px;
+}
+.AboutSwiper{
+    width: 1200px;
+    height: 450px;
+}
+.AboutSlide{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.AboutBox{
+    width: 300px;
+    height: 300px;
+   position: relative;
+   display: flex;
+   
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffff;
+   border-radius: 20px;
+   overflow: hidden;
+}
+.AboutBox:hover{
+    transform: scale(1.1);
+}
+.AboutBoxImg{
+    position: absolute;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 70%;
+    top: 0;
+}
+.TextBox{
+    position: absolute;
+    height: 80px;
+    bottom: 0px;
+    z-index: 2;
+}
+.TextBox h2{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.TextBox h1{
+    margin-bottom: 8px;
+    margin-left: 30px;
+}
+/* ABOUT */
+.HomeLink{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    border: solid red 1px;
+    border-radius: 10px;
+    width: 50%;
+    height: 25px;
+    margin:10px;
+    cursor: pointer;
+    right: 5px;
+    bottom: 90px;
+    z-index: 1; 
+}
+.HomeLink:hover{
+    color: white;
+    background-color: red;
+}
+.HomeLink2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    border: solid red 1px;
+    border-radius: 10px;
+    width: 80px;
+    height: 25px;
+    margin:10px;
+    cursor: pointer;
+    z-index: 1; 
+}
+.HomeLink2:hover{
+    color: white;
+    background-color: red;
+}
+
+.ProductBoxDiv{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}

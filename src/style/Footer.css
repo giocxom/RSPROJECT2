@@ -1,0 +1,81 @@
+.FooterSec{
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: dimgray;
+}
+.FooterMainDiv{
+    display: flex;
+    width: 1300px;
+    justify-content: space-evenly;
+}
+.FooterImgDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.AVERSY{
+    width: 280px;
+    height: 40px;
+    margin-bottom: 130px;
+}
+.CARDS{
+    width: 170px ;
+}
+.FooterTextDiv{
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    line-height: 25px;
+}
+.FooterTextDiv h2{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.575);
+}
+.FooterTextDiv p{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.575);
+}
+.FooterTextDiv p:hover{
+    transform: scale(1.04);
+}
+.FooterTextDiv h2:hover{
+    transform: scale(1.04);
+}
+.FooterLastDiv2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.FooterLastDiv2 p{
+    font-size: 12px;
+}
+.FooterLastDiv{
+    display: flex;
+    height: 37px;
+    width: 190px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    word-spacing: 10px;
+    border-radius: 10px;
+    color: red;
+    margin-bottom: 130px;
+}
+.FooterLastDiv p{
+    font-size: 16px;
+    
+    font-weight: bold;
+}
+.FooterLastDiv img{
+    margin-left: 15px;
+ width: 22px;
+}
+.FooterLastDiv:hover{
+    transform: scale(1.1);
+}

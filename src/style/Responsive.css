@@ -1,0 +1,390 @@
+@media screen and (max-width: 1200px) {
+    .HeaderSection,.HeaderMainDiv,.TestDiv,.AboutMainDiv,.AboutSwiper,.CatalogSwiper,.CataSection,.CataMainDiv,.AplicationSection,.FooterSec,.FooterMainDiv {
+      width: 100%;
+      margin: 0 auto;
+    }
+    body{
+        padding: 10px;
+    }
+    .AboutDivSec{
+        width: 100%;
+    }
+    .AboutSwiper{
+        display: block;
+    }
+    .CataSecondaryDiv{
+        width: 200px;
+        height: 200px;
+    }
+    .CataMainDiv{
+        justify-content: center;
+        align-items: center;
+    }
+    .HeaderMainSectionDiv{
+        width: 100%;
+    }
+    .SearchInput{
+        width: 100%;
+    }
+    .BasketDiv{
+        width:100% ;
+    }
+    .CartMainDiv{
+        width: 100%;
+    }
+    .CartDiv{
+        width: 100%;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .HeaderSection,.HeaderMainDiv,.TestDiv,.AboutMainDiv,.AboutSwiper,.CatalogSwiper,.CataSection,.CataMainDiv,.AplicationSection,.FooterSec,.FooterMainDiv {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .AboutDivSec{
+        display: flex;
+        width: 100%;
+        justify-content: column;
+    }
+    .Product2Div img{
+        width: 50%;
+        height: 50%;
+    }
+    .Product2Div2{
+        width: 50%;
+        height: 50%;
+        line-height: 20px;
+    }
+    .Product2Div2 h2{
+        font-size: 25px;
+    }
+    .Product2Div2 h3{
+        font-size: 20px;
+    }
+    .Product2Div2 p{
+        font-size: 15px;
+    }
+    .CataSecondaryDiv{
+        width: 200px;
+        height: 200px;
+    }
+    .CataMainDiv{
+        justify-content: center;
+        align-items: center;
+    }
+    .SearchInput{
+        width: 100%;
+    }
+    .AboutBox{
+        width: 100%;
+        height: 50%;
+    }
+    .AboutBox img{
+        width: 100%;
+        height: 60%;
+    }
+    .ProductBox{
+        width: 80%;
+        height: 60%;
+    }
+    .ProductBoxDiv{
+        width: 100%;
+        height: 100%;
+    }
+    .ProductBox img:nth-child(2){
+        width: 60%;
+        height: 40%;
+        margin: 30px;
+    }
+    .HomeLink{
+        width: 100px;
+        height: 30px;
+    }
+    .LiButton{
+        display: block;
+        margin-top: 10px;
+    }
+    
+    .Nav{
+        flex-direction: column;
+        width: 90%;
+    }
+    .Ul{
+        display: inline;
+        flex-direction: column;
+        z-index: 2;
+        background-color: red;
+        justify-content: center;
+    }
+    .Li{
+        z-index: 1000002;
+        background-color: red;
+    }
+    .Ul li{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .HeaderMainDiv{
+        justify-content: center;
+    }
+
+
+
+     .HeaderMainSectionDiv{
+        display: none;
+        z-index: 2;
+     }
+    .HeaderMainSectionDiv2{
+        position: relative;
+        width: 1000px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .HeaderMainSectionDiv2 img{
+        width: 25px;
+        height: 25px;
+      }
+      .HeaderMainSectionDiv2 img:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
+
+      .CartSection{
+        width: 100%;
+      }
+      .BasketDiv2{
+        left: -100px;
+        top: -20px;
+      }
+
+
+    
+}
+@media screen and (max-width: 915px) {
+   .FooterTextDiv{
+        width: 100%;
+   }
+   .FooterLastDiv2{
+    width: 100%;
+}
+   .FooterLastDiv p{
+    font-size: 18px;
+}  
+   .FooterSec{
+    position: relative;
+   }
+   .FooterMainDiv{
+    padding: 20px;
+   }
+    
+   .AVERSY{
+    position: absolute;
+    top: 15px;
+    right:32%;
+   }
+   .CARDS{
+    position: absolute;
+    bottom: 15px;
+    right: 40%;
+   }
+   .AplicationTextDiv{
+    width: 100%;
+   }
+   .IMG1{
+    position: relative;
+    width: 50%;
+    left: 100px;
+   }
+   .IMG2{
+    width: 25%;
+    top: 80px;
+    left: 140px;
+   }
+   .AplicationMainDiv{
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+   }
+   .AplicationPhoneDiv{
+    justify-content: center;
+    align-items: center;
+   }
+}  
+
+@media screen and (max-width: 655px) {
+   .LANGBUT{
+    width: 11%;
+    background-color: black;
+   }
+   .Logo img{
+    width: 130px;
+    height: 25px;
+   }
+   .ProductBox{
+    width: 100% ;
+    height: 200px;
+}
+.ProductBox h1,h2{
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+.Ul li{
+    font-size: 20px;
+}
+.mySwiper img{
+    width: 100%;
+    height: 30%;
+    filter: blur(3px);
+  }
+  .InSwiperDiv1,.InSwiperDiv2,.InSwiperDiv3,.InSwiperDiv4{
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+    top: 50px;
+    left: 30px;
+    font-size: 20px;
+    color: rgb(59, 65, 58);
+    font-style: italic;
+    font-weight: bold;
+    }
+    .ProductBoxDiv{
+        flex-wrap: wrap;
+    }
+    .HomeLink2{
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+        width: 60%;
+        margin-bottom: 10px;
+
+    }
+    .Product2Div2 h2{
+        font-size: 20px;
+    }
+    .Product2Div2 h3{
+        font-size: 15px;
+    }
+    .Product2Div2 p{
+        font-size: 10px;
+    }
+    .Product2Div2{
+        line-height: 10px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .SwitchThemeDiv{
+        display: none;
+    }
+    .SwitchThemeDiv2{
+        display: block;
+        margin-left: 40px;
+    }
+    .SearchInput{
+        width: 80px;
+    }
+    .Search{
+        display: none;
+    }
+    .FooterMainDiv{
+        flex-wrap: wrap;
+    }
+    .HeaderMainSectionDiv2{
+        width: 80%;
+    }
+    .HeaderMainSectionDiv2 img{
+        margin: 5px;
+    }
+    .mySwiper img{
+        width: 100%;
+        height: 50%;
+        filter: blur(3px);
+      }
+      .InSwiperDiv1,.InSwiperDiv2,.InSwiperDiv3,.InSwiperDiv4{
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        top: 50px;
+        left: 30px;
+        font-size: 15px;
+        color: rgb(59, 65, 58);
+        font-style: italic;
+        font-weight: bold;
+        }
+     .IMG2{
+        left: 120px;
+     }
+     .ProductBox{
+        width: 130px;
+        height: 200px;
+     }
+     .ProductBoxDiv{
+        padding-bottom: 20px;
+     }
+     .AboutSwiper{
+        display: none;
+     }
+     .H4Div p{
+       font-size: 20px;
+       width: 160px;
+       height: 40px;
+     }
+     .Product2Div2 h2{
+        font-size: 15px;
+    }
+    .Product2Div2 h3{
+        font-size: 10px;
+    }
+    .Product2Div2 p{
+        font-size: 6px;
+    }
+     
+ }
+ @media screen and (max-width: 360px) {
+    .TestDiv{
+        display: none;
+    }
+    .SearchInput{
+        display: none;
+    }
+    .LANGBUT{
+        width: 30px;
+        height: 20px;
+    }
+    .LANGBUT img{
+        width: 30px;
+        height: 20px;
+    }
+    .SwitchThemeDiv2{
+        margin-left: 10px;
+    }
+    .SwitchTheme{
+        width: 42px;
+        height: 15px;
+    }
+    .SliderTheme::before{
+        width: 10px;
+        height: 10px;
+        left: 4px;
+        top: 2px;
+    }
+
+.Product2Div img{
+   width: 30%;
+   height: 30%;
+}
+.Product2Div2 h2{
+   font-size: 10px;
+   margin-bottom: 2px;
+}
+.Product2Div2 h3{
+   font-size: 7px;
+}
+.Product2Div2 p{
+   font-size: 5px;
+   margin-bottom: 0;
+}
+}

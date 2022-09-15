@@ -1,0 +1,27 @@
+.CartSection{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+}
+.CartDiv img{
+    width: 15%;
+}
+
+.CartSumDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+.CartSumDiv button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: red;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+}

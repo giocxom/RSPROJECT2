@@ -1,0 +1,31 @@
+
+
+.FavDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.1px solid red;
+}
+.FavDiv img:nth-child(1){
+    width: 10%;
+}
+.FavDiv img:nth-child(2){
+    width: 40%;
+    height: 40%;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+
+.BasketDiv2{
+    position: absolute;
+    width: 200px;
+    top: 30px;
+    left: 0;
+    margin-top: 70px;
+    background-color: white;
+    z-index: 1412;
+    box-shadow: -8px 20px 78px -8px rgba(0,0,0,0.5);
+  -webkit-box-shadow: -8px 20px 78px -8px rgba(0,0,0,0.5);
+  -moz-box-shadow: -8px 20px 78px -8px rgba(0,0,0,0.5);
+  }

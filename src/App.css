@@ -1,0 +1,485 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+body{
+  background-color: rgb(236, 236, 236);
+}
+.TESTSW{
+  display: none;
+}
+.App{
+  width: 100%;
+}
+
+/*  */
+
+.HeaderMainSectionDiv2{
+  display: none;
+}
+
+/*  */
+
+/* Switch */
+.SwitchThemeDiv2{
+  display: none;
+  position: relative;
+  width: 60px;
+  height: 34px;
+}
+.SwitchTheme {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.SwitchTheme input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.SliderTheme {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+  
+}
+.SliderTheme:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: red;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .SliderTheme {
+  background-color: white;
+}
+
+input:focus + .SliderTheme {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .SliderTheme:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+/* Switch */
+
+.LANGBUT{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 30px;
+  margin-right: 30px;
+  margin-left: 1px;
+
+}
+.LANGBUT:hover{
+    transform: scale(1.2);
+  }
+
+.LANGBUT img{
+  cursor: pointer;
+  width: 145%;
+}
+
+/* THEME */
+.light section h3{
+  color: black;
+}
+.light .ProductBox h1{
+  color:black;
+}
+.light .ProductBox h2{
+  color:black;
+}
+.light .AboutBox h1{
+  color:black;
+}
+.light .BasketDiv{
+  background-color:rgba(255, 255, 255, 0.945);
+  
+}
+.light .BasketDiv2{
+  background-color:rgba(255, 255, 255, 0.945);
+  
+}
+.light .HomeLink2{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.dark.HomeLink2:hover{
+  color: black;
+}
+.light .HomeLink{
+  background-color: rgba(255, 255, 255, 0.541);
+  color: black;
+}
+.dark .HomeLink:hover{
+  color: black;
+}
+
+.dark {
+  background-color: rgb(77, 77, 77);
+}
+.dark .HeaderMainDiv{
+  background-color:rgba(0, 0, 0, 0.801);
+}
+.dark .SearchInput{
+  background-color: rgb(77, 77, 77);
+}
+.dark .Ul a{
+  color: black;
+}
+.dark .CataSecondaryDiv{
+  background-color:rgba(0, 0, 0, 0.801);
+}
+.dark .ProductBox{
+   background-color:rgba(0, 0, 0, 0.801);
+}
+.dark .AboutBox{
+  background-color:rgba(0, 0, 0, 0.801);
+}
+.dark .ProductBox h2{
+  color:red;
+}
+.dark .BasketDiv{
+  background-color:rgba(0, 0, 0, 0.801);
+  
+}
+.dark .BasketDiv2{
+  background-color:rgba(0, 0, 0, 0.801);
+  
+}
+.dark .CartDiv{
+  border: none;
+  
+}
+.dark .CartDiv h2{
+  color: red;
+  
+}
+.dark .CataSecondaryDiv h6{
+  color: red;
+  
+}
+.dark .FavDiv h2{
+  color: red;
+  
+}
+.dark .CartSumDiv button{
+  background-color: black;
+  color: red;
+}
+.dark .ProductDiv{
+  
+  background-color: transparent;
+  border: none;
+  
+}
+.dark .AboutMainDiv h2,h1,p,h3{
+  color: red;
+}
+.dark .HomeLink2{
+  background-color: rgba(0, 0, 0, 0.356);
+  color: rgb(255, 0, 0);
+}
+.dark .HomeLink2:hover{
+  color: black;
+}
+.dark.HomeLink{
+  background-color: rgba(0, 0, 0, 0.356);
+  color:red;
+}
+.dark.HomeLinks:hover{
+  color: black;
+}
+/* THEME */
+
+/* HeADER */
+.HeaderSection{
+  
+  width: 1300px;
+  height: 100%;
+  margin: 0 auto;
+}
+.HeaderMainDiv{
+  width: 1300px;
+  height: 50px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #ffff;
+}
+.Logo{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.Logo img{
+  width: 190px;
+  height: 28px;
+}
+.HeaderMainSectionDiv{
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.HeaderMainSectionDiv img{
+  width: 25px;
+  height: 25px;
+}
+.HeaderMainSectionDiv img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.SearchDiv{
+  position: relative;
+
+}
+.SearchInput{
+  border-radius: 30px;
+  height: 35px;
+  width: 600px;
+}
+.Search{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  right: 5px;
+  bottom: 5px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+}
+.Search img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+
+}
+.HeaderMainDiv2{
+  background-color: rgba(255, 0, 0, 0.986);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  
+}
+
+.Nav{
+  width: 1300px;
+  margin: 0 auto 50px auto;
+  display: flex;
+  justify-content: flex-start;
+}
+ .Ul{
+  width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+  height: 50px;
+  font-size: 30px;
+  color: #ffff;
+}
+.Li{
+  width: 200px;
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  background-color:rgba(190, 0, 0, 0.945);
+}
+.LiButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 5px;
+  border: none;
+  background-color: rgba(190, 0, 0, 0.945);
+}
+.LiButton img{
+  width: 31px;
+  height: 30px;
+}
+.LiButton img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.Ul li:nth-child(2):hover{
+  transform: scale(1.1);
+}
+.Ul li:nth-child(3):hover{
+  transform: scale(1.1);
+}
+.Ul li:nth-child(4):hover{
+  transform: scale(1.1);
+}
+/* HEADER */
+
+/* Swipers */
+.SwiperDiv{
+  margin-top: 10px;
+}
+.mySwiper p{
+  color: rgb(0, 0, 0);
+}
+.mySwiper img{
+  width: 100%;
+  height: 600px;
+  filter: blur(3px);
+}
+.mySwiper img:hover{
+  filter: none;
+}
+
+.SwiperTest1{
+  position: relative;
+}
+.InSwiperDiv1{
+position: absolute;
+width: 500px;
+z-index: 1;
+top: 130px;
+left: 80px;
+font-size: 42px;
+color: rgb(59, 65, 58);
+font-style: italic;
+font-weight: bold;
+}
+
+
+
+.SwiperTest2{
+  position: relative;
+}
+.InSwiperDiv2{
+  position: absolute;
+  width: 500px;
+  z-index: 1;
+  top: 130px;
+  left: 80px;
+  font-size: 42px;
+  color: rgb(59, 65, 58);
+  font-style: italic;
+  font-weight: bold;
+  }
+.SwiperTest3{
+  position: relative;
+}
+  .InSwiperDiv3{
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+    top: 130px;
+    left: 80px;
+    font-size: 42px;
+    color: rgb(59, 65, 58);
+    font-style: italic;
+    font-weight: bold;
+    }
+.SwiperTest4{
+  position: relative;
+}
+    
+.InSwiperDiv4{
+      position: absolute;
+      width: 500px;
+      z-index: 1;
+      top: 130px;
+      left: 80px;
+      font-size: 42px;
+      color: rgb(59, 65, 58);
+      font-style: italic;
+      font-weight: bold;
+      }
+.H4Div p{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  width: 200px;
+  height: 50px;
+  border: solid rgb(255, 255, 255) 2px;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: transparent;
+  background: rgba(255, 255, 255, 0.322);
+}
+.H4Div p:hover{
+  transform: scale(1.1);
+}
+/* SWIPERS */
+/* BASKET */
+.BasketImg{
+  cursor:pointer;
+  transition: color 1000ms ease;
+}
+.BasketImg:hover,
+.BasketActive{
+  filter:hue-rotate(270deg);
+}
+.BasketDiv{
+  position: absolute;
+  top: 30px;
+  right: 0;
+  margin-top: 70px;
+  background-color: white;
+  z-index: 1412;
+  box-shadow: -8px 20px 78px -8px rgba(0,0,0,0.5);
+-webkit-box-shadow: -8px 20px 78px -8px rgba(0,0,0,0.5);
+-moz-box-shadow: -8px 20px 78px -8px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+.CartMainDiv{
+  display: flex;
+  flex-direction: column;
+}
+.CartDiv{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+  border: solid rgb(255, 0, 0) 1px;
+  
+}
+.CartDiv img{
+  width: 8%;
+  height: 8%;
+  margin: 10px;
+}
+/* BASKET */
+.YUPP{
+  color: black;
+}

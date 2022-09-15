@@ -1,0 +1,36 @@
+.CataSection{
+    width: 1300px;
+    margin: 0 auto;
+}
+.CataSection h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.CataMainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    
+  grid-gap: 12px;
+    width: 1300px;
+}
+.CataSecondaryDiv img{
+    width: 120px;
+}
+.CataSecondaryDiv h6{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.CataSecondaryDiv:hover{
+    transform: scale(1.05);
+}
+.CataSecondaryDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #fff;
+}

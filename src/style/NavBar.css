@@ -1,0 +1,47 @@
+.NAVBAR{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(45deg,rgb(156,14,156), midnightblue);
+    z-index: 100000;
+}
+
+.listBAR{
+    list-style-type: none;
+    background: linear-gradient(45deg,rgb(156,14,156), midnightblue);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.itemsBAR{
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+}
+.BTN{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top:7px;
+    padding: 5px;
+    color: black;
+    font-size: 18px;
+}
+@media screen and (max-width:1000px){
+    .listBAR{
+        flex-direction: column;
+        height: auto;
+    }
+    .itemsBAR{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .BTN{
+        display: block;
+    }
+}
