@@ -2,6 +2,16 @@ a {
   text-decoration: none;
   color: white;
 }
+.TestDiv{
+  position: relative;
+}
+.swiper-button-prev::after{
+  color: red;
+}
+.swiper-button-next::after{
+  color: red;
+  position: absolute;
+}
 body{
   background-color: rgb(236, 236, 236);
 }
